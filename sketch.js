@@ -6,14 +6,10 @@ var myEngine, myWorld;
 var ground,box2,box3;
 
 function setup(){
-  createCanvas(600,600);
+  createCanvas(1200,500);
 
   myEngine = Engine.create(); //myEngine.World
   myWorld = myEngine.world;
-
-  var op = {
-    isStatic : true
-  }
 
   var rest = {
     restitution : 2
